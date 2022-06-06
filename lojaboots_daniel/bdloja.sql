@@ -62,8 +62,7 @@ CREATE TABLE `produto` (
 --
 
 INSERT INTO `produto` (`codproduto`, `nomeproduto`, `preco`, `descricao`, `destaque`, `codcategoria`) VALUES
-(1, 'Impressora HP', '450.99', 'sem descriÃ§Ã£o', 0, 2),
-(5, 'Batata', '1.99', '<p>teste de descri&ccedil;&atilde;o</p>\r\n', 1, 3);
+(5, 'Batata', '1.99', 'so uma batata msm', 1, 3);
 
 -- --------------------------------------------------------
 
@@ -84,7 +83,6 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`codusuario`, `nome`, `email`, `senha`, `acesso`) VALUES
-(12, 'Anderson Spera', 'andersonspera@gmail.com', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', 1),
 (13, 'Aluno', 'alunos@gmail.com', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', 1);
 
 --
